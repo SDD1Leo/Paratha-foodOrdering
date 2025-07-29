@@ -8,7 +8,7 @@ const StoreContextProvider = (props) =>{
 
     const [cartItems, setCartItems] = useState({});
     //const url = "https://paratha-server-kbjp.onrender.com";
-    const url = "http://localhost:8080";
+    const url = "https://paratha-foodordering.onrender.com";
     const [loggedIn, setLoggedIn] = useState(false);
 
     const [food_list, setFoodList] = useState([]);

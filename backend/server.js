@@ -21,7 +21,7 @@ const orderRouter = require("./routes/orderRoutes.js");
 app.use(express.json());
 app.use(cors({
   //origin: ["https://paratha-admin.onrender.com","https://paratha-order.onrender.com"], // React frontend origin
-  origin: ["http://localhost:5173","http://localhost:5174"], // React frontend origin
+  origin: ["https://paratha-ordering.onrender.com","http://localhost:5174"], // React frontend origin
   credentials: true 
 }));
 
